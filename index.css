@@ -1,0 +1,46 @@
+#a1{
+    width: 270px;
+    margin: auto;
+    height: 480px;
+    background: #060606;
+    padding: 10px;
+    border: 10px;
+    border-radius: 20px;
+    box-shadow: 0 8px 50px -7px black;
+    /* background-image: url(./img/depositphotos_157151378-stock-photo-black-pattern-background-abstract-dark.jpg); */
+}
+#a2{
+    padding: 15px;
+}
+/* #a3{
+    font-size: 25px;
+    text-align: right;
+    color: rgb(20, 3, 3);
+    padding-bottom: 8px;
+}
+#a4{
+    font-size: 35px;
+    text-align: right;
+    color: #a67a7a;
+} */
+
+
+
+.button {
+    width: 25%;
+    background: #161515;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: -4px;
+    border-right: solid 1px #0f1011;
+    border-bottom: solid 1px #0d0d0e;
+    transition: all 0.2s ease-in-out;
+    border-radius: 35px;
+   
+  }
+
+

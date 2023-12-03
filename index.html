@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body  >
+    <div id="a1">
+        <div id="a2"> 
+            <input id="result" type="text" class="form-control " style=" height: 140px; width: 100% ; font-size: 30px;text-align: right; background-color: black; color: white;">
+        </div>
+       <div id="a5">
+            <div>
+                <button class="button" onclick="AllClear()"  style="color: rgb(0, 0, 0); background-color: rgb(88, 86, 86);"> AC</button>
+                <button class="button" onclick="displayData('+')" style="color: rgb(6, 6, 6);background-color: rgb(88, 86, 86);">+/-</button>
+                <button class="button" onclick="displayData('%')" style="color: rgb(0, 0, 0);background-color: rgb(88, 86, 86);">%</button>
+                <button class="button" onclick="displayData('/')" style="color: rgb(227, 140, 77);background-color: chocolate;">÷</button>
+            </div>
+           <div>
+                <button class="button" onclick="displayData(7)">7</button>
+                <button class="button" onclick="displayData('8')">8</button>
+                <button class="button" onclick="displayData('9')">9</button>
+                <button class="button" onclick="displayData('*')" style="color: rgb(228, 222, 218);background-color: chocolate;">x</button>
+                
+           </div>
+            <div>
+                <button class="button" onclick="displayData('4')">4</button>
+                <button class="button" onclick="displayData('5')">5</button>
+                <button class="button" onclick="displayData('6')">6</button>
+                <button class="button" onclick="displayData('-')" style="color: rgb(245, 238, 233);background-color: chocolate;">-</button>
+              
+            </div>
+            <div>
+                <button class="button" onclick="displayData(1)">1</button>
+                <button class="button" onclick="displayData(2)">2</button>
+                <button class="button" onclick="displayData(3)">3</button>
+                <button class="button" onclick="displayData('+')" style="color: rgb(247, 242, 238);background-color: chocolate;">+</button>
+            </div>
+            <div>
+                <button class="button" onclick="displayData(0)">0</button>
+                <button class="button" onclick="displayData('.')" style="color: rgb(227, 140, 77);">.</button>
+                <button class="button" onclick="back()" style="color: rgb(227, 140, 77);" ><i class="fa-solid fa-less-than"></i></button>
+                <button class="button" onclick="out()" style="color: rgb(255, 252, 249);background-color: chocolate;">=</button>
+            </div>
+       </div>
+    </div>
+</body>
+<script src="./calc.js"></script>
+</html>
